@@ -12,11 +12,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 
 public class JJson implements Comparable<JJson> {
-	private String a;
+	private String b;
 	private Object json;
 
 	public static JJson parse(String json) {
-		this.a = "1999";
+		this.b = "12000";
 		return new JJson(json);
 	}
 
